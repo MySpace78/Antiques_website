@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+/*CSS sheet for Antiques web */
+*{
+	margin:0;
+	padding:0;
+	
+	}
+body{
+	margin:0px;
+	padding:0px;
+
+	}
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#FFF;
+	background-image:
+	
+	}
+#wraper{
+	width:1000px;
+	margin:auto;
+	margin-top:15px;
+	padding:auto;
+	
+	border:#FFF px inset;
+	height:180px;
+	background-image:url(../images/back_ground.jpg);
+	opacity:0.80;
+}
+#div_Header{
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	width:350px;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	}
+	
+#div_Header_line{
+	
+	width:1000px;
+	height:8px;
+	background-color:#FC0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:28px;
+	
+		
+	}
+#wraper h2{
+
+ color:#930;
+ font-family:"Comic Sans MS", cursive;
+ font-size:24px;
+	
+	}
+
+#Menu_Bar{
+	width:1000px;
+	height:50px;
+	margin-left:auto;
+	margin-right:auto;
+	background: rgb(69,72,77); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(69,72,77,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	
+	}
+#Menu_Bar ul{	 list-style:none;	}
+#Menu_Bar ul li{ float:left; list-style:none; }
+#Menu_Bar ul li a{
+	text-decoration:none;
+	display:inline-block;
+	color:#CCC;
+	font-family:"MS Serif", "New York", serif;
+	font-size:20px;
+	font-style:oblique;
+	font-style:normal;
+	width:145px;
+	height:30px;
+	margin-top:16px;
+	line-height:20px;
+    border-left:#CCC inset 1px;
+	text-align:center;
+		}
+#Menu_Bar ul li a:hover{
+		 color:#FC0;
+		 font-size:22px;
+		 font-weight:bold;
+		
+		}
+#Moving_Area{
+	    width:1000px;
+		height:400px;
+		background:#333;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:7px;
+	
+	
+	}
+	
+#ContentArea{
+	width:999px;
+	height:700px;;
+	background-color:#FFF;
+	border:#CCC 1px solid;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:7px;
+	}
+	
+#contact{
+	
+	 width:900px;
+	 height:600px;
+	 
+	 background-color:#FFF;
+	 margin-left:auto;
+	 margin-right:auto;
+	 border:#FFF 1px solid;
+	
+	}
+#SideBar{
+	 width:200px;
+	 height:430px;
+	 padding-left:14px;
+	 padding:14px;
+	 background-color:#FFFBF0;
+	 float:right;
+	
+	}
+
+
+/*#BoxHolder{
+	width:999px;
+	height:250px;
+	border:#F00 1px solid;
+	
+}*/
+#BoxItemOne{
+	width:318px;
+	height:260px;
+	margin-left:10px;
+	margin-top:15px;
+	float:left;
+	border:#CCC 1px solid;
+	
+		}
+#Price{
+	width:317px;
+	height:50px;
+	background:#FC0;
+	border:#CCC 1px solid;
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+	text-align:center;
+	}
+		
+/*#BoxItemTwo{
+	width:300px;
+	height:250px;
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+	background-image:url(../moving_pics/2014-10-26%20ipone/ipone%20012.JPG);
+		}	
+		
+#BoxItemThree{
+	width:300px;
+	height:250px;
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+	background-image:url(../moving_pics/2014-10-26%20ipone/ipone%20011.JPG);
+		}*/
+#FooterWrap{
+	width:1000px;
+	height:50px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:7px;
+	margin-bottom:10px;
+	}
+#FooterBar{
+    width:600px;
+	height:50px;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#000;
+	
+		}	
+		
+#FooterBar ul li{
+	list-style:none;
+		
+	}
+#FooterBar ul li a{
+	
+	text-decoration:none;
+	display:inline-block;
+	color:#CCC;
+	font-family:"Courier New", Courier, monospace;
+	font-size:13px;
+	font-style:oblique;
+	font-style:normal;
+	width:70px;
+	height:30px;
+	margin-top:18px;
+	line-height:10px;
+   	text-align:center;
+	
+	}
+	
+#CopyWrite{
+    width:400px;
+	height:50px;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	background-color:#000;
+	color:#CCC;
+	
+		}
